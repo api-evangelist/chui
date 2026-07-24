@@ -1,7 +1,29 @@
 aid: chui
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chui.png
 name: Chui
-description: Chui is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Chui, now operating as Trueface (part of BigBear.ai after the Pangiam
+  acquisition), is a facial recognition and computer vision company. Originally
+  launched as "Chui," the world's first faceprint API for access and identity,
+  the technology is delivered today as a licensed developer SDK with C++,
+  Python, Android, and iOS bindings, plus a Dockerized on-premises REST API
+  (Trueface On-Prem / PTOP) for 1:1 and 1:N face matching, spoof and liveness
+  detection, object detection, and identity verification. Deployment options
+  span on-device, self-hosted Docker, and AWS. The technology has been evaluated
+  in NIST FRVT and DHS/CBP testing and is applied across fintech, education,
+  security, healthcare, retail, hospitality, and government. Surfaced as a
+  500 Global portfolio company and profiled by the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/chui/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Facial Recognition
+- Computer Vision
+- Machine Learning
+- Identity Verification
+- Biometrics
+- SDK
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,26 @@ maintainers:
 common:
 - type: Website
   url: https://trueface.ai
+- type: DeveloperPortal
+  url: https://docs.trueface.ai/
+- type: Documentation
+  url: https://docs.trueface.ai/
+- type: SDKs
+  url: https://trueface.ai/our-technology/sdk
+- type: GitHubOrganization
+  url: https://github.com/getchui
+- type: Support
+  url: https://bigbear.ai/contact/
+- type: TermsOfService
+  url: https://trueface.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://trueface.ai/privacy-policy
+- type: LLMsTxt
+  url: llms/chui-llms.txt
+- type: DomainSecurity
+  url: security/chui-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
