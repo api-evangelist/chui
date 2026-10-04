@@ -52,8 +52,8 @@ x-docs-hosting: vercel
 tags:
 - Company
 - Facial Recognition
-- Computer-Vision
-- Machine-Learning
+- Computer Vision
+- Machine Learning
 - Identity Verification
 - Biometrics
 - SDK
@@ -67,6 +67,8 @@ tags_raw:
 - Biometrics
 - SDK
 - Security
+- Computer-Vision
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
